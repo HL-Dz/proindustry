@@ -1,0 +1,42 @@
+.header {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.proindustry__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5.95em;
+  padding-bottom: 5.3em;
+}
+
+.proindustry__link {
+ font-size: 2.15em;
+ text-transform: var(--upper);
+ font-weight: 500;
+ letter-spacing: 4.9px;
+ transition: color 0.3s ease-in-out;
+}
+
+.proindustry__link:hover {
+  color: #e3af1d;
+}
+
+.proindustry__link:hover span {
+  color: var(--white-color);
+}
+
+.proindustry__link span {
+  color: #e3af1d;
+  transition: color 0.3s ease-in-out;
+}
+
+.proindustry__elem {
+  text-transform: uppercase;
+  padding-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: var(--white-color);
+}

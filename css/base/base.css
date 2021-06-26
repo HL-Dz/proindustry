@@ -1,8 +1,28 @@
+:root {
+  /* Colors */
+  --white-color: #fff;
+  --orange-color: #f8bc28;
+  --grey-color: #767676;
+  --dark-color: #1e1e1e;
+  --social-color: #303030;
+  --text-grey-color: #a4a4a4;
+  --circle-active: #fdc21e;
+
+  /* Backgrounds */
+  --proindustry-bg: url("../../assets/images/bg/proindustry.jpg");
+
+  /* Size */
+  --upper: uppercase;
+  --circle-size: 8;
+}
+
 html {
   font-size: 10px;
+  width: 100%;
 }
 
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -20,6 +40,11 @@ p {
 
 a {
   text-decoration: none;
+  color: var(--white-color)
+}
+
+a:visited {
+  color: none;
 }
 
 ul {

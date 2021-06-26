@@ -4,8 +4,10 @@
 @import "base/base.css";
 
 /* Layouts */
+@import "layouts/header.css";
 
 /* Components */
+@import "components/proindustry.css";
 
 /* Media */
 @import "media/laptop.css";
