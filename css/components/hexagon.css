@@ -1,0 +1,46 @@
+.hexagon {
+  position: relative;
+  background: var(--dark-color);
+  width: var(--hexagon-width);
+  height: var(--hexagon-height);
+  margin: 0 15px;
+}
+
+.hexagon::before, .hexagon::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  border-left: var(--hexagon-border) solid transparent;
+  border-right: var(--hexagon-border) solid transparent;
+} 
+
+.hexagon::before {
+  top: calc(var(--hexagox-row-padding) * -1);
+  border-bottom: var(--hexagox-row-padding) solid var(--dark-color);
+}
+
+.hexagon::after {
+  bottom: calc(var(--hexagox-row-padding) * -1);
+  border-top: var(--hexagox-row-padding) solid var(--dark-color);
+}
+
+.hexagon__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hexagon__content * {
+  transition: all 0.5s ease;
+  will-change: transform;
+}
+
+
+.hexagon__content:hover * {
+  color: var(--orange-color);
+  transform: scale(1.2);
+}

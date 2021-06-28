@@ -9,6 +9,9 @@
 /* Components */
 @import "components/proindustry.css";
 @import "components/navigation.css";
+@import "components/services.css";
+@import "components/hexagon.css";
+@import "components/button-go.css";
 
 /* Media */
 @import "media/laptop.css";
