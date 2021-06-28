@@ -1,0 +1,48 @@
+.solutions {
+  padding-top: 4.6em;
+  padding-bottom: 5.5em;
+}
+
+.solutions .current-title {
+  text-align: center;
+  color: var(--orange-color);
+}
+
+.solutions .current-description {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin-top: 0.7em;
+  margin-bottom: 2.8em;
+}
+
+.solutions__list {
+  display: flex;
+}
+
+.solution {
+  width: calc(100% / 3);
+}
+
+.solution__pic {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.solution__icon {
+  text-align: center;
+  font-size: 10em;
+  color: var(--dark-color);
+  font-weight: 700;
+}
+
+.solution__text {
+  text-align: center;
+  color: var(--text-grey-color);
+  margin: 0 auto;
+  max-width: 260px;
+  line-height: 1.47;
+}
