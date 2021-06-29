@@ -1,0 +1,28 @@
+.experience {
+  background: var(--experience-bg);
+  background-size: cover;
+  background-position: top center;
+  color: var(--white-color);
+  text-transform: var(--upper);
+  padding-top: 10.8em;
+  padding-bottom: 9.2em;
+}
+
+.experience__wrap {
+  margin-left: -3rem;
+}
+
+.experience__title {
+  font-size: 6.4em;
+  margin-left: 3px;
+  font-weight: 500;
+}
+
+.experience__text {
+  font-size: 2.5em;
+  margin-top: -11px;
+  margin-bottom: 1.05em;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
