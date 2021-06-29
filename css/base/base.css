@@ -5,13 +5,15 @@
   --grey-color: #767676;
   --dark-color: #1e1e1e;
   --social-color: #303030;
-  /* --text-grey-color: #a4a4a4; */
+  --text-grey-color: #a4a4a4;
   --text-grey-color: #5e5d5d;
   --circle-active: #fdc21e;
 
   /* Backgrounds */
   --proindustry-bg: url("../../assets/images/bg/proindustry.jpg");
   --experience-bg: url("../../assets/images/bg/experience.jpg");
+  --money-bg: url("../../assets/images/content/money.jpg");
+  --disk-bg: url("../../assets/images/content/technology.jpg");
 
   /* Size */
   --upper: uppercase;
@@ -76,7 +78,7 @@ h6 {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1230px;
   padding: 0 3rem;
   margin: 0 auto;
 }

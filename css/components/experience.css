@@ -9,7 +9,7 @@
 }
 
 .experience__wrap {
-  margin-left: -3rem;
+  margin-left: -0.6rem;
 }
 
 .experience__title {
@@ -24,5 +24,5 @@
   margin-bottom: 1.05em;
   line-height: 1.2;
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
