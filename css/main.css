@@ -15,6 +15,7 @@
 @import "components/solutions.css";
 @import "components/experience.css";
 @import "components/technologies.css";
+@import "components/events.css";
 
 /* Media */
 @import "media/laptop.css";

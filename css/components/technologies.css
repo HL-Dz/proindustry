@@ -12,10 +12,6 @@
   margin-bottom: 2.750em;
 }
 
-.technology:hover .technology__icon {
-  /* transform: scale(1.4); */
-}
-
 .technology:last-child {
   margin-bottom: 0;
 }
