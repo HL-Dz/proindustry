@@ -34,6 +34,11 @@
   color: var(--dark-color);
 }
 
+.button-link_white {
+  background: transparent;
+  border: 1px solid white;
+}
+
 .button-link:hover {
   transform: scale(1.2);
 }

@@ -5,6 +5,7 @@
 
 /* Layouts */
 @import "layouts/header.css";
+@import "layouts/footer.css";
 
 /* Components */
 @import "components/proindustry.css";
