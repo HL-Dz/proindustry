@@ -1,1 +1,144 @@
-@media screen and (max-width: 480px) {};
+@media screen and (max-width: 480px) {
+  .header__wrap {
+    padding: 1.7em 0;
+  }
+
+  .proindustry__wrap {
+    padding: 1.5em 0;
+  }
+  
+  .proindustry__link {
+    font-size: 1.3em;
+  }
+
+  .proindustry__title {
+    font-size: 1.7em;
+  }
+
+  .proindustry__technology {
+    font-size: 1.5em;
+  }
+
+  .nav .container {
+    padding: 0;
+  }
+
+  .nav__link {
+    padding: 0.3em 0;
+  }
+
+  .services {
+    padding: 1.5em 0;
+  }
+
+  .services .current-title {
+    font-size: 1.7em;
+  }
+
+  .services .current-description {
+    font-size: 1em;
+    padding: 1em 0 2em;
+  }
+
+  .services__info {
+    padding-bottom: 0;
+  }
+
+  .services__row {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .services .hexagon {
+    margin-bottom: 3.438em;
+  }
+
+  .services .hexagon__content {
+    margin-bottom: 3.438em;
+  }
+
+  .services__text {
+    margin-top: 0;
+  }
+
+  .solutions {
+    padding: 1.5em 0;
+  }
+
+  .solutions .current-title {
+    font-size: 1.7em;
+  }
+
+  .solutions .current-description {
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+
+  .solutions__list {
+    flex-direction: column;
+  }
+
+  .solution {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(211, 208, 208);
+    padding: 5px;
+    border-radius: 2px;
+  }
+
+  .solution__pic {
+    margin-bottom: 0;
+  }
+
+  .technologies {
+    padding: 1.5em 0;
+  }
+
+  .technologies .container {
+    padding: 0;
+  }
+
+  .technology__desc {
+    font-size: 1.7em;
+  }
+
+  .events {
+    padding: 1.5em 0;
+  }
+
+  .events__caption {
+    font-size: 2em;
+  }
+
+  .footer-wrap {
+    padding-top: 1.5em;
+  }
+
+  .building__title {
+    font-size: 1.7em;
+  }
+
+  .building__decs {
+    font-size: 0.7em;
+  }
+
+  .contacts {
+    padding: 1.5em 0;
+  }
+
+  .contacts .proindustry__link {
+    font-size: 1em;
+  }
+
+  .privacy__text {
+    font-size: 0.8em;
+  }
+
+  .privacy__policy {
+    padding-left: 0;
+  }
+
+  .privacy__policy::before {
+    display: none;
+  }
+};
