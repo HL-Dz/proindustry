@@ -1,1 +1,173 @@
-@media screen and (max-width: 767px) {};
+@media screen and (max-width: 767px) {
+  :root {
+    --hexagon-width: 130px;
+    --hexagon-height: 87px;
+    --hexagox-row-padding: 25px;
+  }
+
+  .button-link {
+    padding: 0.6em;
+    font-size: 0.9em;
+  }
+  
+  .proindustry__wrap {
+    padding: 2em 0;
+  }
+  .proindustry__title {
+    font-size: 3em;
+    padding-top: 0;
+  }
+
+  .proindustry__technology {
+    padding: 1em 0;
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__item {
+    width: 100%;
+  }
+
+  .nav__link {
+    font-size: 1.2em;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav__link:before {
+    display: none;
+  }
+
+  .services {
+    padding: 2em 0;
+  }
+
+  .services .current-title {
+    font-size: 3em;
+  }
+
+  .services .current-description {
+    padding: 1em 0;
+  }
+
+  .services__row {
+    padding-bottom: 12.5px;
+  }
+
+  .services .hexagon {
+    margin: 0 7px;
+  }
+
+  .services__icon {
+    font-size: 2.7em;
+  }
+
+  .services__name {
+    margin-top: 0.4em;
+    font-size: 0.7em;
+  }
+
+  .services__text {
+    margin-top: 0.7em;
+    text-align: justify;
+  }
+
+  .services_buttons {
+    padding-top: 0.7em;
+  }
+  
+  .solutions {
+    padding: 2em 0;
+  }
+
+  .solutions .current-title {
+    font-size: 2.7em;
+  }
+
+  .solutions .current-description {
+    margin: 1em 0;
+  }
+
+  .solution__icon {
+    font-size: 5em;
+  }
+
+  .solution__text {
+    line-height: 1.3;
+    text-align: justify;
+  }
+
+  .experience {
+    padding: 2em 0;
+  }
+
+  .experience__title {
+    font-size: 3em;
+  }
+
+  .experience__text {
+    font-size: 1.5em;
+  }
+
+  .technologies {
+    padding: 2em 0;
+  }
+
+  .technology {
+    flex-direction: column
+  }
+
+  .technology__desc {
+    padding: 1em;
+  }
+
+  .technology__content {
+    text-align: center;
+  }
+
+  .events {
+    padding: 2em 0;
+  }
+
+  .events__icon {
+    font-size: 5em;
+  }
+
+  .events__caption {
+    font-size: 4em;
+  }
+
+  .event__title {
+    padding: 1em 0;
+  }
+
+  .event__date {
+    font-size: 4em;
+  }
+
+  .event__desc {
+    text-align: justify;
+  }
+
+  .footer-wrap {
+    padding-top: 2em;
+  }
+
+  .building {
+    padding-bottom: 2em;
+  }
+
+  .building__title {
+    font-size: 3em;
+  }
+
+  .building__decs {
+    font-size: 1.3em;
+  }
+
+  .map {
+    height: 15em;
+  }
+};
