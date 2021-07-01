@@ -1,1 +1,188 @@
-@media screen and (min-width: 768px) and (max-width: 1199px) {};
+@media screen and (max-width: 1199px) {
+  :root {
+    --hexagon-width: 180px;
+    --hexagon-height: 130px;
+    --hexagox-row-padding: 40px;
+  }
+  
+  .header__wrap {
+    padding-top: 2.95em;
+    padding-bottom: 2.3em;
+  }
+
+  .proindustry__wrap {
+    padding: 3em 0;
+  }
+
+  .proindustry__title {
+    font-size: 5em;
+  }
+
+  .proindustry__technology {
+    padding-bottom: 2em;
+  }
+
+  .nav__link {
+    padding: 0.5em;
+  }
+
+  .services {
+    padding: 3em 0;
+  }
+
+  .services .current-description {
+    padding-bottom: 2em;
+  }
+
+  .services__info {
+    padding-bottom: 25px;
+  }
+
+  .services__text {
+    margin-top: 2em;
+  }
+
+  .services__icon {
+    font-size: 4em;
+  }
+
+  .services__name {
+    margin-top: 1em;
+  }
+
+  .services_buttons {
+    padding-top: 1.5em;
+  }
+
+  .solutions {
+    padding: 3em 0;
+  }
+
+  .solutions__list {
+    justify-content: space-between;
+  }
+
+  .solution {
+    width: calc((100% / 3) - 0.6em);
+  }
+
+  .solution__icon {
+    font-size: 7em;
+  }
+
+  .experience {
+    padding: 3em 0;
+  }
+
+  .experience__title {
+    font-size: 5em;
+    margin-left: 0;
+  }
+
+  .experience__text {
+    margin-top: 0;
+    margin-bottom: 0.7em;
+  }
+
+  .technologies {
+    padding: 3em 0;
+  }
+
+  .technology__desc {
+    font-size: 2.5em;
+  }
+
+  .technology__content {
+    padding: 1em;
+  }
+
+  .events {
+    padding: 2.5em 0;
+  }
+
+  .events__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .events__primary {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .archive {
+    margin: 1.5em 0;
+  }
+
+  .event {
+    flex-basis: 100%;
+    padding: 1em 0;
+    border-bottom: 1px solid var(--text-grey-color);
+    border-top: 1px solid var(--text-grey-color);
+    margin-left: 0;
+  }
+
+  .event * {
+    text-align: center;
+  }
+
+  .event .hexagon {
+    margin: 62px auto;
+  }
+
+  .event:last-child {
+    border-top: none;
+  }
+
+  .event__buttons .button-go {
+    margin: 0 auto;
+  }
+
+  .footer-wrap {
+    padding-top: 3em;
+  }
+
+  .building {
+    padding-bottom: 3em;
+  }
+
+  .building__title {
+    font-size: 4em;
+  }
+
+  .building__decs {
+    font-size: 1.7em;
+  }
+
+  .contacts {
+    padding: 1.6em 0;
+  }
+
+  .contacts__wrap {
+    flex-direction: column;
+    
+  }
+
+  .privacy {
+    margin-bottom: 1em;
+  }
+
+  .address {
+    padding-left: 0;
+    margin-bottom: 1em;
+    /* justify-content: space-between; */
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .address__target {
+    padding-left: 3px;
+    text-align: center;
+    text-transform: lowercase;
+  }
+
+  .social {
+    margin-top: 0;
+  }
+
+};
